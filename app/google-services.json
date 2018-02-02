@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "108908425222",
+    "firebase_url": "https://masterpiece-2ad40.firebaseio.com",
+    "project_id": "masterpiece-2ad40",
+    "storage_bucket": "masterpiece-2ad40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108908425222:android:7d10c4cc9e3924fb",
+        "android_client_info": {
+          "package_name": "yass.tawakadziruni.com.masterpiece"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108908425222-fo982se65tndog463kebollm6bplcn6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yass.tawakadziruni.com.masterpiece",
+            "certificate_hash": "ef99a60b0ae8056a11985ba552d05ec6db419328"
+          }
+        },
+        {
+          "client_id": "108908425222-1ecqan8p5bscltlrqqa94qgi2qplr1kl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yass.tawakadziruni.com.masterpiece",
+            "certificate_hash": "1b2c143e7cc267f686ff99ad59778ed6f345f7a0"
+          }
+        },
+        {
+          "client_id": "108908425222-db6vmqpnc8ohdeenas1pkt12imp557d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yass.tawakadziruni.com.masterpiece",
+            "certificate_hash": "5da77d706025a94e47d8089a856c606763700bc2"
+          }
+        },
+        {
+          "client_id": "108908425222-a7c5rbt5of8jequus3mnesilcrgschh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT5oJUt08udf1t6P-WtWTUMOb_cLz8XqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108908425222-a7c5rbt5of8jequus3mnesilcrgschh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

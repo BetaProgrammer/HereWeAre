@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="StatusBar"> #f1085b</color>
+    <color name="StatusBar2">#f1085b</color>
+    <color name="StatusBar3">#f9e640</color>
+
+    <color name="watermelon">#52ff14</color>
+    <color name="pineapple">#ffff00</color>
+    <color name="strawberry">#f1085b</color>
+    <color name="ocean">#0139bc</color>
+    <color name="tangerine">#ff5500</color>
+    <color name="tan">#F5DEB3</color>
+    <color name="The_color_purple">#aa00ff</color>
+
+</resources>

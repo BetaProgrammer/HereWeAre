@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#0062ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0375ff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/EventNameFrag"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abigail "
+            android:textColor="#000000"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DateOf"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Friday, 10 November 2017"
+            android:textColor="#edf243"
+            android:textColorHighlight="#0033ff" />
+
+        <ImageView
+            android:id="@+id/EventPhoto"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            android:src="@drawable/ic_official_developmental_logo" />
+
+        <TextView
+            android:id="@+id/KnownPlace"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_toEndOf="@+id/DateOf"
+            android:layout_toRightOf="@+id/DateOf"
+            android:text="Venue"
+            android:textColor="#30ef3d"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="yass.tawakadziruni.com.masterpiece.ProfilePage">
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/ic_done_black_36dp"
+        android:orderInCategory="100"
+        android:title="Done"
+        android:iconTint="@color/watermelon"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/cancel"
+        android:icon="@drawable/ic_close_black_36dp"
+        android:title="Close"
+        android:iconTint="@color/strawberry"
+        app:showAsAction="always"
+
+        />
+
+</menu>

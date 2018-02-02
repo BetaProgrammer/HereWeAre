@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Spiner" type="id" />
+    <item name="MainSpinner" type="id" />
+    <item name="checkedButton" type="id" />
+    <item name="initLoad" type="id" />
+    <item name="venueText" type="id" />
+    <item name="datemaker" type="id" />
+    <item name="BackArrow" type="id" />
+    <item name="fragment_container" type="id" />
+
+</resources>

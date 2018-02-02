@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="yass.tawakadziruni.com.masterpiece.SignInFlow"
+    android:background="@color/pineapple">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:fontFamily="cursive"
+        android:text="Sign in."
+        android:textAlignment="center"
+        android:textColor="#5915e1"
+        android:textSize="75dp" />
+
+    <EditText
+        android:id="@+id/SignInUserNameField"
+        android:layout_width="800dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/SignInPasswordField"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/customthick"
+        android:backgroundTint="@color/tangerine"
+        android:fontFamily="serif"
+        android:hint="Username"
+        android:textColorHint="#ffff"
+        android:inputType="textNoSuggestions"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/SignInPasswordField"
+        android:layout_width="800dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/signIn"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/customthick"
+        android:backgroundTint="@color/tan"
+        android:fontFamily="serif"
+        android:textColorHint="#000"
+        android:hint="Password"
+        android:paddingStart="20dp"
+        android:paddingTop="0dp" />
+
+    <ImageButton
+        android:id="@+id/signIn"
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/google_sign_in" />
+
+</RelativeLayout>

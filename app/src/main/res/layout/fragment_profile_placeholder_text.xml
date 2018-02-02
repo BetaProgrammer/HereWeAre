@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yass.tawakadziruni.com.masterpiece.ProfilePlaceholderText">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#10c7ec"
+        android:id="@+id/PlaceHolder"
+        android:textSize="25dp"
+        style="@style/Base.ThemeOverlay.AppCompat.Light"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/hello_blank_fragment"
+        android:textStyle="italic"
+
+        />
+
+</FrameLayout>

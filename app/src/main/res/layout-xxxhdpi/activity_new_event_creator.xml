@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="2dp">
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#f1085b"
+                android:outlineProvider="background"
+                >
+
+                <ImageButton
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"
+                    android:background="@drawable/back"
+                    android:id="@+id/BackArrow"
+                    android:onClick="vle"
+                    android:src="?android:attr/selectableItemBackground"
+                    style="@style/AlertDialog.AppCompat.Light"
+
+                    />
+
+                <Button
+                    android:id="@+id/done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:backgroundTint="@color/pineapple"
+                    android:shadowColor="@color/ocean"
+                    android:text="Done"
+                    android:textAllCaps="false"
+                    style="@style/AlertDialog.AppCompat.Light"
+
+                    android:textColor="@color/The_color_purple" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:background="#f1085b"
+                tools:context="yass.tawakadziruni.com.masterpiece.NewEventCreator">
+
+                <TextView
+                    android:id="@+id/length"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_marginStart="16dp"
+                    android:text="0"
+                    android:textSize="35sp" />
+
+                <EditText
+                    android:id="@+id/plain_text_input"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView3"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/textView"
+                    android:fontFamily="monospace"
+                    android:hint="Event Name"
+                    android:inputType="text"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/venueText"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textView2"
+                    android:layout_alignBottom="@+id/textView2"
+                    android:layout_alignLeft="@+id/plain_text_input"
+                    android:layout_alignStart="@+id/plain_text_input"
+                    android:inputType="text"
+                    android:hint="Venue"
+                    android:textStyle="italic"
+                    android:fontFamily="monospace"
+                    />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/venueText"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="19dp"
+                    android:text="Public?"
+                    android:textColor="#28ff6f"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/plain_text_input"
+                    android:layout_alignBottom="@+id/plain_text_input"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/event_name"
+
+                    android:textColor="#d4ff00"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/plain_text_input"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="42dp"
+                    android:text="@string/venue"
+                    android:textColor="#d4ff00"
+                    android:textSize="17sp" />
+
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textColor="@color/watermelon"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/datemaker"
+                    android:layout_alignEnd="@+id/textView6"
+                    android:layout_marginEnd="11dp"
+                    android:scaleX="1.2"
+                    android:scaleY="1.2" />
+
+                <Button
+                    android:id="@+id/datemaker"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    style="@style/AlertDialog.AppCompat.Light"
+                    android:layout_below="@+id/venueText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textAllCaps="false"
+                    android:text="Date Pick"
+                    />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+    <ListView
+        android:id="@+id/inviteFriendsListView"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffc739"
+        android:drawSelectorOnTop="true"
+
+
+        />
+    <TextView
+        android:layout_marginLeft="160dp"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="XXXHDPI"
+        android:textAlignment="center"
+        android:textColor="#55ff55"
+        android:id="@+id/Label"/>
+
+</LinearLayout>
+
+

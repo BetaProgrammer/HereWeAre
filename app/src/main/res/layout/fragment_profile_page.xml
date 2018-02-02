@@ -1,0 +1,68 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff538"
+>
+
+    <ImageButton
+        android:id="@+id/profilePic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/UserName"
+        android:background="#fff538"
+        android:text="Home"
+        style="@style/AlertDialog.AppCompat.Light"
+
+/>
+
+    <Button
+        android:id="@+id/List"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/UserName"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:layout_toLeftOf="@+id/friends"
+        android:layout_toStartOf="@+id/friends"
+        android:background="#fff538"
+        android:text="List"
+/>
+    <Button
+        android:id="@+id/friends"
+        android:text="Friends"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:background="#fff538"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/UserName"
+        android:layout_toEndOf="@+id/UserName"
+        android:layout_toRightOf="@+id/UserName"
+        />
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/profilePic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@MattyB412"
+        android:textColor="#0066ff"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

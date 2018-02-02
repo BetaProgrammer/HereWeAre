@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/inviteFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_done_black_36dp" />
+
+        <TextView
+            android:id="@+id/FriendName"
+
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:text="Johnny Appleseed"
+            android:textColor="@color/ocean"
+            android:textSize="23sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/FriendUserName"
+            style="@style/Base.Theme.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/FriendName"
+            android:layout_alignStart="@+id/FriendName"
+            android:layout_below="@+id/FriendName"
+            android:text="@TheOneSon634"
+            android:textColor="@color/tangerine"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/finalarrow"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingTop="33dp"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+</LinearLayout>
